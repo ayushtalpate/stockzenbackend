@@ -22,7 +22,7 @@ const url = process.env.MONGO_URL;
 
 const app = express();
 
-const allowedOrigins = ["http://localhost:3000", "http://localhost:3001"]; // ✅ Frontend (3001) & Dashboard (3003)
+const allowedOrigins = ["https://stockzenfrontend.vercel.app/", "https://stockzendashboard.vercel.app/"]; // ✅ Frontend (3001) & Dashboard (3003)
 
 app.use(
   cors({
