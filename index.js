@@ -22,7 +22,7 @@ const url = process.env.MONGO_URL;
 
 const app = express();
 
-const allowedOrigins = ["https://stockzenfrontend.vercel.app", "https://stockzendashboard.vercel.app","https://stockzenfrontend-n7dupg0v6-ayush-talpates-projects.vercel.app"]; // ✅ Frontend (3001) & Dashboard (3003)
+const allowedOrigins = ["https://stockzenfrontend.vercel.app", "https://stockzendashboard.vercel.app","https://stockzenfrontend-n03a760oh-ayush-talpates-projects.vercel.app"]; // ✅ Frontend (3001) & Dashboard (3003)
 
 app.use(
   cors({
